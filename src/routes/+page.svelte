@@ -41,12 +41,9 @@
   h1 {
     color: rgb(237, 229, 214);
     font-family: 'YesevaOne';
-    font-size: 56px;
+    font-size: 48px;
     margin: 48px 0;
-
-    @media (max-width: 648px) {
-      font-size: 48px;
-    }
+    text-transform: uppercase;
   }
 
   img {
