@@ -45,7 +45,7 @@
     margin: 48px 0;
     text-transform: uppercase;
 
-    @media (max-width: 480px) {
+    @media (max-width: 450px) {
       font-size: 54px;
     }
   }
