@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../styles/fonts.css';
 	import bandPhotograph from '../images/tiles.png';
+	import MediaQuery from 'svelte-media-queries';
 </script>
 
 <main>
@@ -25,6 +26,7 @@
 		font-family: 'NotoSansMono';
 		max-width: 600px;
 		margin: 48px auto;
+		padding: 0 24px;
 		text-align: center;
 	}
 
@@ -32,10 +34,24 @@
 		color: rgb(237, 229, 214);
 		font-family: 'YesevaOne';
 		font-size: 56px;
+		margin: 48px 0;
+
+		@media (max-width: 648px) {
+			font-size: 48px;
+		}
 	}
 
 	img {
 		height: 600px;
 		width: 600px;
+
+		@media (max-width: 648px) {
+			height: calc(100vw - 48px);
+			width: calc(100vw - 48px);
+		}
+	}
+
+	p {
+		margin: 48px 0;
 	}
 </style>
