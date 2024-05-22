@@ -1,7 +1,8 @@
 <script lang="ts">
 	import '../styles/fonts.css';
 	import bandPhotograph from '../images/tiles.png';
-	import MediaQuery from 'svelte-media-queries';
+	import EmbeddedVideo from '$lib/components/embedded-video.svelte';
+	import Footer from '$lib/components/footer.svelte';
 </script>
 
 <main>
@@ -13,6 +14,8 @@
 		between explosive energy and haunting stillness. We’re continuing to captivate audiences
 		nationwide with our precise arrangements, energizing performances, and unforgettable sound.
 	</p>
+	<EmbeddedVideo />
+	<Footer />
 </main>
 
 <style>
