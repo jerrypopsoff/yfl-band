@@ -35,7 +35,7 @@
   }
 
   footer > a {
-    color: #222222;
+    color: rgb(237, 229, 214);
     padding: 24px 0;
 
     @media (max-width: 648px) {

@@ -25,12 +25,12 @@
 
 <style>
   :global(body) {
-    background-color: rgb(212, 113, 113);
+    background-color: rgb(47, 90, 56);
     margin: 0;
   }
 
   main {
-    color: #222222;
+    color: rgb(237, 229, 214);
     font-family: 'NotoSansMono';
     max-width: 600px;
     margin: 48px auto;
