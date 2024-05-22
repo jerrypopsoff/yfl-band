@@ -8,10 +8,10 @@
 }
 
 @font-face {
-  font-family: 'YesevaOne';
+  font-family: 'LeagueSpartan';
   font-style: normal;
   font-weight: normal;
   src:
     local(''),
-    url('/fonts/YesevaOne-Regular.ttf') format('truetype');
+    url('/fonts/LeagueSpartan-Black.ttf') format('truetype');
 }

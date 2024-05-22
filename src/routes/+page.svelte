@@ -40,10 +40,14 @@
 
   h1 {
     color: rgb(237, 229, 214);
-    font-family: 'YesevaOne';
-    font-size: 48px;
+    font-family: 'LeagueSpartan';
+    font-size: 88px;
     margin: 48px 0;
     text-transform: uppercase;
+
+    @media (max-width: 480px) {
+      font-size: 54px;
+    }
   }
 
   img {
