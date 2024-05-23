@@ -4,6 +4,7 @@
   import EmbeddedVideo from '$lib/components/embedded-video.svelte';
   import Footer from '$lib/components/footer.svelte';
   import EmbeddedAudio from '$lib/components/embedded-audio.svelte';
+  import { BIO_TEXT } from '$lib/constants';
 </script>
 
 <main>
@@ -12,14 +13,7 @@
     alt="Photograph of Your Fearless Leader band members"
     src={bandPhotograph}
   />
-  <p>
-    We’re a San Francisco based indie rock band known for our dynamic sound and
-    intricate orchestral arrangements. Blending powerful vocals with
-    contemplative lyrics, we create music that moves between explosive energy
-    and haunting stillness. We’re continuing to captivate audiences nationwide
-    with our precise arrangements, energizing performances, and unforgettable
-    sound.
-  </p>
+  <p>{BIO_TEXT}</p>
   <EmbeddedVideo />
   <EmbeddedAudio />
   <Footer />

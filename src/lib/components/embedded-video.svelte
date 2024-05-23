@@ -1,4 +1,5 @@
 <script>
+  import { YOUTUBE_EMBED_URL } from '$lib/constants';
   import MediaQuery from 'svelte-media-queries';
 </script>
 
@@ -6,7 +7,7 @@
   <iframe
     width={matches ? 320 : 600}
     height={matches ? 180 : 337.5}
-    src="https://www.youtube.com/embed/cqLAp-eYSao?si=pQZYxpQ_5S4l7NrD"
+    src={YOUTUBE_EMBED_URL}
     title="YouTube video player"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
