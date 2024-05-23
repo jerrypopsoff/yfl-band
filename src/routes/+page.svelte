@@ -21,8 +21,15 @@
 
 <style>
   :global(body) {
-    background-color: rgb(47, 90, 56);
+    background-color: rgb(65, 75, 54);
     margin: 0;
+
+    background: url($lib/images/green_metal_rust_diff_4k.jpg) no-repeat center
+      center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   main {
