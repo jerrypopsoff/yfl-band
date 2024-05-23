@@ -1,6 +1,7 @@
 <script lang="ts">
   import '../styles/fonts.css';
-  import bandPhotograph from '../images/tiles.png';
+  import bandPhotograph from '$lib/images/yfl-profile-photograph.png';
+  import bandPhotographWebp from '$lib/images/yfl-profile-photograph.webp';
   import EmbeddedVideo from '$lib/components/embedded-video.svelte';
   import Footer from '$lib/components/footer.svelte';
   import EmbeddedAudio from '$lib/components/embedded-audio.svelte';
@@ -9,10 +10,13 @@
 
 <main>
   <h1>Your Fearless Leader</h1>
-  <img
-    alt="Photograph of Your Fearless Leader band members"
-    src={bandPhotograph}
-  />
+  <picture>
+    <source type="image/webp" srcset={bandPhotographWebp} />
+    <img
+      alt="Photograph of Your Fearless Leader band members"
+      src={bandPhotograph}
+    />
+  </picture>
   <p>{BIO_TEXT}</p>
   <EmbeddedVideo />
   <EmbeddedAudio />
