@@ -81,5 +81,6 @@
 
   p {
     margin: 48px 0;
+    text-align: justify;
   }
 </style>
