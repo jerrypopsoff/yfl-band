@@ -3,6 +3,7 @@
   import bandPhotograph from '../images/tiles.png';
   import EmbeddedVideo from '$lib/components/embedded-video.svelte';
   import Footer from '$lib/components/footer.svelte';
+  import EmbeddedAudio from '$lib/components/embedded-audio.svelte';
 </script>
 
 <main>
@@ -20,6 +21,7 @@
     sound.
   </p>
   <EmbeddedVideo />
+  <EmbeddedAudio />
   <Footer />
 </main>
 
