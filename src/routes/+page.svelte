@@ -21,11 +21,23 @@
 
 <style>
   :global(body) {
-    background-color: rgb(65, 75, 54);
+    background-color: rgb(66, 76, 55);
     margin: 0;
 
-    background: url($lib/images/green_metal_rust_diff_4k.jpg) no-repeat center
-      center fixed;
+    background-image: url($lib/images/green-metal-rust-texture.jpg);
+    background-image: image-set(
+      url($lib/images/green-metal-rust-texture.webp),
+      url($lib/images/green-metal-rust-texture.jpg)
+    );
+    background-image: -webkit-image-set(
+      url($lib/images/green-metal-rust-texture.webp),
+      url($lib/images/green-metal-rust-texture.jpg)
+    );
+
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
