@@ -33,7 +33,8 @@
     background-color: rgb(66, 76, 55);
     color: rgb(237, 229, 214);
     font-family: 'NotoSansMono';
-    margin: 0;
+    /* Bottom margin for announcement to not block page content */
+    margin: 0 0 192px 0;
     text-align: center;
 
     background-image: url($lib/images/green-metal-rust-texture.jpg);
