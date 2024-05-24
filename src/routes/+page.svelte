@@ -6,7 +6,10 @@
   import Footer from '$lib/components/footer.svelte';
   import EmbeddedAudio from '$lib/components/embedded-audio.svelte';
   import { BIO_TEXT } from '$lib/constants';
+  import Analytics from '$lib/components/analytics.svelte';
 </script>
+
+<Analytics />
 
 <main>
   <h1>Your Fearless Leader</h1>
