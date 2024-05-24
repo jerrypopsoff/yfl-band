@@ -68,21 +68,21 @@
     border: none;
     cursor: pointer;
     font-family: sans-serif;
-    padding: 24px 24px 16px;
+    padding: 16px 24px;
   }
 
   .content {
-    margin: 0 24px 4px;
+    margin: 0 24px 8px;
   }
 
   .content--without-action {
-    margin: 0 24px 24px;
+    margin: 0 24px 16px;
   }
 
   a {
     color: #212121;
     display: flex;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     padding: 8px 12px;
   }
 </style>
