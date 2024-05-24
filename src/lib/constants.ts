@@ -1,4 +1,22 @@
 /**
+ * Text content and destination URL. Use these values to display an
+ * attention-grabbing banner on the website with an optional link to a URL
+ * containing more information or user actions.
+ *
+ * If ANNOUNCEMENT_TEXT is empty, no banner will appear. If
+ * ANNOUNCEMENT_ACTION_TEXT or ANNOUNCEMENT_URL is empty, the banner will not
+ * render a link.
+ *
+ * @example
+ * export const ANNOUNCEMENT_TEXT = 'Catch us with Phoenix at the Warfield on June 8th';
+ * export const ANNOUNCEMENT_ACTION_TEXT = 'TICKETS';
+ * export const ANNOUNCEMENT_URL = 'https://ticketwebsite.com/event-id';
+ */
+export const ANNOUNCEMENT_TEXT = '';
+export const ANNOUNCEMENT_ACTION_TEXT = '';
+export const ANNOUNCEMENT_URL = '';
+
+/**
  * Biographical text for the band.
  */
 export const BIO_TEXT = `We’re a San Francisco based indie rock band known for

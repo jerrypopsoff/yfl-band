@@ -7,9 +7,11 @@
   import EmbeddedAudio from '$lib/components/embedded-audio.svelte';
   import { BIO_TEXT } from '$lib/constants';
   import Analytics from '$lib/components/analytics.svelte';
+  import Announcement from '$lib/components/announcement.svelte';
 </script>
 
 <Analytics />
+<Announcement />
 
 <main>
   <h1>Your Fearless Leader</h1>
@@ -29,7 +31,10 @@
 <style>
   :global(body) {
     background-color: rgb(66, 76, 55);
+    color: rgb(237, 229, 214);
+    font-family: 'NotoSansMono';
     margin: 0;
+    text-align: center;
 
     background-image: url($lib/images/green-metal-rust-texture.jpg);
     background-image: image-set(
@@ -51,13 +56,14 @@
     background-size: cover;
   }
 
+  :global(:focus) {
+    outline-color: rgb(66, 76, 55);
+  }
+
   main {
-    color: rgb(237, 229, 214);
-    font-family: 'NotoSansMono';
     max-width: 600px;
     margin: 48px auto;
     padding: 0 24px;
-    text-align: center;
   }
 
   h1 {
