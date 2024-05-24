@@ -1,11 +1,10 @@
 /**
  * Text content and destination URL. Use these values to display an
- * attention-grabbing banner on the website with an optional link to a URL
- * containing more information or user actions.
+ * attention-grabbing announcement toast on the website with an optional link.
  *
- * If ANNOUNCEMENT_TEXT is empty, no banner will appear. If
- * ANNOUNCEMENT_ACTION_TEXT or ANNOUNCEMENT_URL is empty, the banner will not
- * render a link.
+ * If ANNOUNCEMENT_TEXT is empty, no announcement will appear. If
+ * ANNOUNCEMENT_ACTION_TEXT or ANNOUNCEMENT_URL is empty, the announcement will
+ * appear without a link.
  *
  * @example
  * export const ANNOUNCEMENT_TEXT = 'Catch us with Phoenix at the Warfield on June 8th';
