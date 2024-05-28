@@ -30,7 +30,7 @@ unforgettable sound.`;
  * the copied embed code except for the `src` attribute value.
  */
 export const SPOTIFY_EMBED_URL =
-  'https://open.spotify.com/embed/artist/6L94XX8aTFA0A4bmgaI52z?utm_source=generator&theme=0';
+  'https://open.spotify.com/embed/album/0KrYUo8OIBSbj1T0hX5bEJ?utm_source=generator&theme=0';
 
 /**
  * YouTube embedded player URL. When replacing, be sure to remove everything in
