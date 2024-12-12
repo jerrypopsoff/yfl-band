@@ -18,8 +18,7 @@ export const ANNOUNCEMENT_URL = '';
 /**
  * Biographical text for the band.
  */
-export const BIO_TEXT = `San Francisco based indie rock band known for precise
-  arrangements, energizing performances, and unforgettable sound.`;
+export const BIO_TEXT = 'San Francisco indie rock outfit Your Fearless Leader draws from the cityʼs gritty, unvarnished truth. Frontman Marcus, therapist and former mental health counselor in the Tenderloin, weaves tales of struggle, resilience, and hope, informed by his years of working with the cityʼs most vulnerable populations. The result is a sound thatʼs both deeply personal and profoundly relatable.';
 
 /**
  * Spotify embedded player URL. When replacing, be sure to remove everything in
