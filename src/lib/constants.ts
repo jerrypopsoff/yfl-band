@@ -11,9 +11,9 @@
  * export const ANNOUNCEMENT_ACTION_TEXT = 'TICKETS';
  * export const ANNOUNCEMENT_URL = 'https://ticketwebsite.com/event-id';
  */
-export const ANNOUNCEMENT_TEXT = '';
-export const ANNOUNCEMENT_ACTION_TEXT = '';
-export const ANNOUNCEMENT_URL = '';
+export const ANNOUNCEMENT_TEXT = 'Catch us with Phoenix at the Warfield on June 8th';
+export const ANNOUNCEMENT_ACTION_TEXT = 'TICKETS';
+export const ANNOUNCEMENT_URL = 'https://jerrypop.com/merch';
 
 /**
  * Biographical text for the band.
