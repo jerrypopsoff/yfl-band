@@ -11,9 +11,9 @@
  * export const ANNOUNCEMENT_ACTION_TEXT = 'TICKETS';
  * export const ANNOUNCEMENT_URL = 'https://ticketwebsite.com/event-id';
  */
-export const ANNOUNCEMENT_TEXT = 'Catch our next show at Kilowatt on February 1st';
-export const ANNOUNCEMENT_ACTION_TEXT = 'Tickets';
-export const ANNOUNCEMENT_URL = 'https://dice.fm/event/7dob57-the-sam-chase-the-untraditional-and-your-fearless-leader-1st-feb-kilowatt-san-francisco-tickets';
+export const ANNOUNCEMENT_TEXT = '';
+export const ANNOUNCEMENT_ACTION_TEXT = '';
+export const ANNOUNCEMENT_URL = '';
 
 /**
  * Biographical text for the band.
